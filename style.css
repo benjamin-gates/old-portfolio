@@ -1,0 +1,46 @@
+img{
+  width:200px;
+  border-radius: 25%;
+  padding: 10px;
+  float: right;
+  text-align: start;
+}
+
+.small-images{
+  border-radius:50%;
+  width: 200px;
+}
+header{
+  height: 280px;
+}
+
+header, footer{
+  background: #0D1821;
+}
+
+h1{
+  font-size: 48px;
+  color: #F0F4EF;
+  font-family: Stylus;
+}
+
+h2{
+  font-size: 36px;
+  color: #B4CDED;
+}
+h1, h2, footer > p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+header > p{
+  text-align: left;
+}
+footer{
+  padding: 10px;
+}
+
+
+main > h3, p {
+  color: #826251;
+}
