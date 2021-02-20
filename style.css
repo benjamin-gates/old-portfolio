@@ -11,7 +11,7 @@ img{
 }
 
 .right-image, .left-image{
-  width:120px;
+  width:150px;
 }
 
 .right-image, .top-image{
@@ -56,7 +56,6 @@ footer {
 /* Styling horizontal ruler */
 hr{
   color: #0D1821;
-  width: 600px;
   height: 2px;
   background: #0D1821;
   border-radius: 10%;
