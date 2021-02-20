@@ -1,46 +1,76 @@
+
+/* Setting padding and style shared by all images*/
 img{
-  width:200px;
-  border-radius: 25%;
   padding: 10px;
-  float: right;
-  text-align: start;
+  border-radius: 25%;
 }
 
-.small-images{
-  border-radius:50%;
+/* Setting width and float location for images */
+.top-image{
   width: 200px;
 }
+
+.right-image, .left-image{
+  width:120px;
+}
+
+.right-image, .top-image{
+  float: right;
+}
+
+.left-image{
+  float:left;
+}
+
+/* Styling Background of header and footer*/
 header{
-  height: 280px;
+    height: 280px;
 }
 
 header, footer{
   background: #0D1821;
+  border-radius: 1%;
 }
 
+h1, h2, footer > p {
+  padding: 20px;
+}
+/*Styling text of header and footer*/
+h1, footer{
+  color: #F0F4EF;
+}
 h1{
   font-size: 48px;
-  color: #F0F4EF;
-  font-family: Stylus;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2{
   font-size: 36px;
   color: #B4CDED;
-}
-h1, h2, footer > p {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-header > p{
-  text-align: left;
+footer {
+  font-size: 18px;
 }
-footer{
-  padding: 10px;
+/* Styling horizontal ruler */
+hr{
+  color: #0D1821;
+  width: 600px;
+  height: 2px;
+  background: #0D1821;
+  border-radius: 10%;
+}
+/* Styling text of main body */
+h3{
+  color: #344966;
+  font-size: 28px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+p, ol, ul, a {
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
-
-main > h3, p {
-  color: #826251;
+main>article>h3, main>article>p,{
+  margin: 10px;
 }
