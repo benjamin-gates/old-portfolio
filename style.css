@@ -52,6 +52,7 @@ h2{
 
 footer {
   font-size: 18px;
+  text-align: center;
 }
 /* Styling horizontal ruler */
 hr{
@@ -72,4 +73,29 @@ p, ol, ul, a {
 
 main>article>h3, main>article>p,{
   margin: 10px;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.center-text{
+  text-align: center;
+}
+
+/* Styling links  */
+a:link{
+  color: blue;
+}
+
+a:visited{
+  color: red;
+}
+
+a:hover{
+  color: green;
+}
+
+a:active{
+  color: pink;
 }
